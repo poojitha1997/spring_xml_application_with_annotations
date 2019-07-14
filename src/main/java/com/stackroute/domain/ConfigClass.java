@@ -15,18 +15,19 @@ public class ConfigClass
    @Bean
     public Actor getActor()
     {
-        Actor actor = new Actor("sharukh","male",55);
+        Actor actor = new Actor();
         actor.setName("sharukh");
         actor.setAge(50);
         actor.setGender("male");
       return actor;
     }
 
+
     //creating bean for movie class
     @Bean
     public Movie getMovie()
     {
-        return new Movie(Arrays.asList(getActor()));
+        return new Movie();
 
     }
 

@@ -12,12 +12,12 @@ public class Actor {
     int age;
 
     //constructor with the fields
-    @Autowired
-    public Actor(String name, String gender, int age) {
-        this.name = name;
-        this.gender = gender;
-        this.age = age;
-    }
+//    @Autowired
+//    public Actor(String name, String gender, int age) {
+//        this.name = name;
+//        this.gender = gender;
+//        this.age = age;
+//    }
 
     //setter and getter methods
     public String getName() {
