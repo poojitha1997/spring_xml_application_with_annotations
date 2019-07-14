@@ -2,20 +2,23 @@ package com.stackroute.domain;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.List;
+
 public class Movie
 {
 
 
-    Actor actor;
+    List<Actor> actor;
+
 
     @Autowired
-    public void setActor(Actor actor) {
+    public Movie(List<Actor> actor)
+    {
         this.actor = actor;
     }
 
-    public Actor getActor() {
-        return actor;
-    }
+
+
 
     //to call the to string method and display the information
     public void display()

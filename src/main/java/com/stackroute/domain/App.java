@@ -9,6 +9,7 @@ public class App
     {
         ApplicationContext context = new AnnotationConfigApplicationContext(ConfigClass.class);
         Movie movie =context.getBean( Movie.class);
+        //displaying the values of the actor
         movie.display();
     }
 }
