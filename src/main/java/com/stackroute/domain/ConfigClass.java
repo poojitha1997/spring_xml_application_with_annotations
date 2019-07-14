@@ -19,7 +19,13 @@ public BeanLifeCycleDemoBean getBean()
     beanLifeCycleDemoBean.setName("poojitha");
     return beanLifeCycleDemoBean;
 }
+@Bean
+public BeanPostProcessorDemoBean getbeanpostprocessordemobean()
+{
+    BeanPostProcessorDemoBean beanPostProcessorDemoBean = new BeanPostProcessorDemoBean();
+    return  beanPostProcessorDemoBean;
 
+}
 
 
 }

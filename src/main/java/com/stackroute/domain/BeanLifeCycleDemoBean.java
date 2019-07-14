@@ -15,7 +15,6 @@ public class BeanLifeCycleDemoBean implements InitializingBean , DisposableBean
         return name;
     }
 
-   // @Autowired
     public void setName(String name) {
         this.name = name;
     }
